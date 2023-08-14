@@ -5,11 +5,14 @@ import './App.css'
 import './Components/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Navbar/>
+      <h1>Hola como andan?</h1>
+      <ul>
+      <li>mau</li>
+      <li>otis</li>
+      <li>jorge</li>
+      </ul>
     </>
   )
 }
